@@ -1,5 +1,4 @@
-// script.js
-// Error Handling (Jathniel)
+
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
     let name = document.getElementById("name").value;
@@ -18,3 +17,4 @@ function validateEmail(email) {
  let re = /\S+@\S+\.\S+/;
  return re.test(email);
 }
+
